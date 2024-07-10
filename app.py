@@ -6,7 +6,7 @@ import hashlib
 import re 
 
 app = Flask(__name__)
-app.config['BASE_URL'] = 'http://localhost:5000/'  
+app.config['BASE_URL'] = 'https://urlshortner-ugc3.onrender.com/'  
 
 
 url_store = {}
